@@ -9,10 +9,19 @@
     "@types/mocha": "^5.2.5",
     "@midwayjs/serverless-invoke": "1"
   },
+  "midway-integration": {
+    "lifecycle": {
+      "before:package:cleanup": "npm run build"
+    }
+  },
   "scripts": {
     "build": "f package --skipZip",
     "test": "f test",
     "dev": "f invoke -p",
-    "debug": "f invoke -p --debug"
+    "debug": "f invoke -p --debug",
+    "deploy": "midway-bin deploy"
+  },
+  "egg": {
+    "framework": "@midwayjs/web"
   }
 }
