@@ -1,4 +1,6 @@
 # Welcome use midway-faas for your first serverless project
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FTwtcer%2Fmidway-first-serverless.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FTwtcer%2Fmidway-first-serverless?ref=badge_shield)
+
 
 ## prepare
 
@@ -16,3 +18,6 @@ I think you are ready, if not, please execute the following statement.
 ## Document
 
 https://midwayjs.org/faas
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FTwtcer%2Fmidway-first-serverless.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FTwtcer%2Fmidway-first-serverless?ref=badge_large)
